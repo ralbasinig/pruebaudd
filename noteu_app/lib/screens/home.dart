@@ -113,7 +113,130 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                   ],
                 ),
               ),
+
+ const SizedBox(width: 12.0), 
+                Container(
+                  padding: const EdgeInsets.all(8.0),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.black,
+                      width: 2.0,
+                    ),
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Tue",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                      Text(
+                        "28",
+                        style: TextStyle(fontSize: 30,  fontWeight: FontWeight.w900,),
+                      ),
+                       Text(
+                        "May",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 12.0), 
+
+                Container(
+                  padding: const EdgeInsets.all(8.0),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.black,
+                      width: 2.0,
+                    ),
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Wed",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                      Text(
+                        "29",
+                       style: TextStyle(fontSize: 30,  fontWeight: FontWeight.w900,),
+                      ),
+                       Text(
+                        "May",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ),
+ const SizedBox(width: 12.0), 
+
+ Container(
+                  padding: const EdgeInsets.all(8.0),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.black,
+                      width: 2.0,
+                    ),
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Thurs",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                      Text(
+                        "30",
+                       style: TextStyle(fontSize: 30,  fontWeight: FontWeight.w900,),
+                      ),
+                       Text(
+                        "May",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 12.0), 
+Container(
+                  padding: const EdgeInsets.all(8.0),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.black,
+                      width: 2.0,
+                    ),
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  child: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Fri",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                      Text(
+                        "31",
+                        style: TextStyle(fontSize: 30,  fontWeight: FontWeight.w900,),
+                      ),
+                       Text(
+                        "May",
+                        style: TextStyle(fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 12.0), 
+
             ],
+
+            
           ),
 
           const SizedBox(height: 16.0),
